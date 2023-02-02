@@ -18,6 +18,13 @@
 
 // --- portfolio ---
 @import "../components/portfolio/styles/projects.scss";
+@import "../components/portfolio/styles/projectCard.scss";
 
 // --- contact ---
 @import "../components/contactForm/styles/contactForm.scss";
+
+// --- admin ---
+@import "../components/dashboard/styles/dashboard.scss";
+@import "../components/dashboard/styles/dashTechnos.scss";
+@import "../components/dashboard/styles/dashProfils.scss";
+@import "../components/dashboard/styles/dashProjects.scss";
