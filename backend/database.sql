@@ -29,7 +29,7 @@ CREATE TABLE
         `id` INT NOT NULL AUTO_INCREMENT,
         `nom` VARCHAR(45) NOT NULL,
         `prenom` VARCHAR(45) NOT NULL,
-        `bio` VARCHAR(45) NOT NULL,
+        `bio` TEXT NOT NULL,
         `photo` VARCHAR(45),
         PRIMARY KEY (`id`),
         UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE
